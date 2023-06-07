@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercata Marketplace Transaction Data</title>
+</head>
+<body>
+    <div>
+        <label for="fields">Select fields to display:</label>
+        <select id="fields" multiple>
+            <option value="ownerCommonName">Owner Common Name</option>
+            <option value="address">Address</option>
+            <option value="transaction_hash">Transaction Hash</option>
+            <option value="amountPaid">Amount Paid</option>
+            <option value="orderId">Order ID</option>
+            <option value="owner">Owner</option>
+            <option value="status">Status</option>
+        </select>
+        <button id="updateTable">Update Table</button>
+    </div>
+    <div id="table-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
